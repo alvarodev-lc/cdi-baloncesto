@@ -14,7 +14,7 @@ public class Throw : MonoBehaviour {
 
 		if (cKey || spaceKey){
 
-			GameObject ball = ball = Instantiate(ballPrefab, transform.position, transform.rotation);
+			GameObject ball = Instantiate(ballPrefab, transform.position, transform.rotation);
 			Vector3 force = new Vector3();
 
 			if (cKey) {
